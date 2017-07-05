@@ -6,7 +6,7 @@ We assume you already know the [[basic command-line structure|pants('src/docs:fi
 
 + For details on how to specify target addresses, see [[Target Addresses|pants('src/docs:target_addresses')]].
 + For details on how to specify options, see [[Options|pants('src/docs:options')]].
-+ For a list of Pants' goals and their options, see the <a href="options_reference.html">Options Reference</a>.
++ For a list of Pants' goals and their options, see the <a href="options.md">Options Reference</a>.
 
 Order of Arguments
 ------------------
@@ -49,7 +49,7 @@ How to Use Shorthand Flags
 
 Either fully qualified or shorthand flags can be used to pass an
 option to a task. The fully qualified (or long form) options are
-listed in the `help` output and the <a href="options_reference.html">Options Reference</a>.
+listed in the `help` output and the <a href="options.md">Options Reference</a>.
 The long form is more foolproof to use because it can go almost anywhere on
 the command line, but the shorthand version can save typing.
 
